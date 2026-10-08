@@ -1,0 +1,14 @@
+interface:
+  display_name: Epicor EFX Builder
+  short_description: Safely inspect and modify Epicor EFX libraries
+  default_prompt: Use $epicor-efx-builder to inspect or safely modify an Epicor Function
+    Library.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

@@ -2,7 +2,7 @@
 
 # Cutova for Claude
 
-The MCP server for Epicor® Kinetic®. This plugin connects Claude to Cutova (`https://server.cutova.ai/mcp`) so you can explore revenue, receivables, cash and backlog, and build BAQs, Epicor Functions and Kinetic apps.
+MCP server built for Epicor® Kinetic®. This plugin connects Claude to Cutova (`https://server.cutova.ai/mcp`) so you can explore revenue, receivables, cash and backlog, and build BAQs, Epicor Functions and Kinetic apps.
 
 ## Structure
 
@@ -13,8 +13,24 @@ cutova-plugin/
 ├── .mcp.json         # Cutova MCP server
 ├── assets/
 │   └── logo.png      # plugin icon
+├── skills/
+│   ├── cutova-executive-insights/   # revenue, AR, AP, backlog, outliers
+│   ├── epicor-baq-builder/          # create, edit, clone, migrate BAQs
+│   ├── epicor-efx-builder/          # Epicor Function Libraries (EFX)
+│   └── kinetic-layer-builder/       # Kinetic layers, dashboard uplift
 └── README.md
 ```
+
+## Skills
+
+| Skill | Use it for |
+|---|---|
+| `cutova:cutova-executive-insights` | How the business is doing: revenue, cash, receivables, payables, backlog, jobs at risk, cost outliers |
+| `cutova:epicor-baq-builder` | Building, cloning, exporting and importing BAQs, including updatable BAQs |
+| `cutova:epicor-efx-builder` | Inspecting, backing up, changing and importing Epicor Function Libraries |
+| `cutova:kinetic-layer-builder` | Building Kinetic layers and uplifting classic customizations and dashboards |
+
+Claude picks the right skill automatically from what you ask. Each skill needs the matching Cutova tools published on your server.
 
 ## Install
 
