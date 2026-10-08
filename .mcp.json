@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "cutova": {
+      "type": "http",
+      "url": "https://server.cutova.ai/mcp"
+    }
+  }
+}

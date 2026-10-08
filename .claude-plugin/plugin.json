@@ -1,0 +1,18 @@
+{
+  "name": "cutova",
+  "displayName": "Cutova",
+  "version": "1.0.0",
+  "description": "Cutova is an MCP server built for Epicor Kinetic. Get business insights and build BAQs, Epicor Functions and Kinetic apps from Claude.",
+  "author": {
+    "name": "Cutova · Lens Software LLC",
+    "email": "hello@cutova.ai",
+    "url": "https://cutova.ai"
+  },
+  "homepage": "https://cutova.ai",
+  "keywords": ["cutova", "epicor", "kinetic", "erp", "baq", "mcp"],
+  "icon": "./assets/logo.png",
+  "documentationUrl": "https://cutova.ai/docs/connect/claude/",
+  "supportUrl": "https://cutova.ai/faq",
+  "privacyPolicyUrl": "https://cutova.ai/privacy",
+  "termsOfServiceUrl": "https://cutova.ai/terms"
+}
